@@ -1,0 +1,5 @@
+/*各种小样式文件*/
+.footnote{color:#aaa;}
+
+.fork-on-git{width:120px;height:120px;position:fixed;top:0;right:0;}
+.fork-on-git .fork-bd{display:inline-block;font-family:"days";font-size:.9rem;text-decoration:none;background:#2E3936;color:#FFF;height:24px;line-height:24px;width:154px;text-align:center;margin-top:33px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);transform:rotate(45deg);text-shadow:2px 2px 2px #000;}

@@ -1,3 +1,4 @@
+/*定义webfont*/
 @font-face{
 	font-family:"origram";
 	src:url("font/Origram.otf");
@@ -5,4 +6,8 @@
 @font-face{
 	font-family:"iconfont";
 	src:url("font/pulsarjs.ttf")
+}
+@font-face{
+	font-family:"days";
+	src:url("font/days.otf")
 }

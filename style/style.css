@@ -2,8 +2,10 @@
 @import url("font.css");
 @import url("layout.css");
 @import url("icon.css");
+@import url("miscellaneous.css");
 
 body{
 	background:#F6F6F6;
-	font-family:
+	font-family:"微软雅黑";
+	color:#454545;
 }

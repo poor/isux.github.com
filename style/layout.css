@@ -1,11 +1,31 @@
+/*页面布局*/
 header{height:60px;padding: 10px 0;text-align:center;}
-header h1{font-size:2rem;font-weight:bold;font-family:"origram";color:green;}
-header h1:first-letter{text-transform:uppercase}
+header h1{font-size:2.5rem;font-weight:bold;font-family:"origram";color:green;}
+/*header h1:first-letter{text-transform:uppercase}*/
 header h3{font-size:1.2rem;}
-footer{height:3rem;line-height:3rem;background:#2E3936;padding:.5rem;}
+footer{height:auto;background:#2E3936;padding:.5rem;}
 footer a,footer a:visited,footer a::after{color:#FFF;}
 footer .icon{margin-right:1rem;}
 article{padding:10px;}
-article section{padding:10px;background:#F0F0F0;margin:10px 0}
-article section h2{font-size:1.2rem;line-height:2;}
+article section{padding:10px;background:#F0F0F0;margin:10px 0;min-height:15rem;}
+article section h2{font-size:1.2rem;font-family:"days";line-height:2;color:green;}
 article section li{line-height:1.6;}
+article section li::before{display:inline-block;width:1rem;height:1rem;content:"J";font-family:"iconfont";font-size:1rem;line-height:1rem;margin-right:.5rem;color:#2E3936;}
+
+/*for responsive layout*/
+@media (min-width: 767px) {
+	article section{display:inline-block;width:48.5%;vertical-align:top;margin-right:1rem;}
+	article section:nth-child(2n){margin-right:0;}
+}
+
+@media (min-width: 960px) {
+	article section{width:31.5%;}
+	article section:nth-child(2n){margin-right:1rem;}
+	article section:nth-child(3n){margin-right:0;}
+}
+@media (min-width: 1440px) {
+	article section{width:23.8%;}
+	article section:nth-child(2n){margin-right:1rem;}
+	article section:nth-child(3n){margin-right:1rem;}
+	article section:nth-child(4n){margin-right:0;}
+}

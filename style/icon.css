@@ -1,0 +1,10 @@
+/*provide icon*/
+.icon{display:inline-block;width:16px;height:16px;}
+.icon::after{display:inline-block;width:16px;height:16px;margin-left:-16px;content:'';font-family:"iconfont"}
+
+.icon-add{}
+.icon-add::after{content:"add"}
+.icon-refresh{}
+.icon-refresh::after{content:""}
+.icon-list{}
+.icon-list::after{content:""}

@@ -2,18 +2,9 @@
 .icon{display:inline-block;width:1.8rem;height:1.8rem;font-size:1.8rem;font-family:"iconfont"}
 .icon::after{display:inline-block;width:1.8rem;height:1.8rem;margin-left:0;font-size:1.8rem;content:'';font-family:"iconfont"}
 
-.icon-home{}
-.icon-home::after{content:"Y"}
-.icon-add{}
-.icon-add::after{content:""}
-.icon-refresh{}
-.icon-refresh::after{content:""}
-.icon-list{}
-.icon-list::after{content:""}
-.icon-edit{}
-.icon-edit::after{content:"Z"}
-.icon-back{}
-.icon-back::after{content:"@"}
+
+.icon-replay{}
+.icon-replay::after{content:"@"}
 .icon-link{}
 .icon-link::after{content:"#"}
 .icon-musical{}

@@ -1,5 +1,5 @@
 /*页面布局*/
-header{height:60px;padding: 10px 0;text-align:center;}
+header{min-height:60px;padding: 10px 0;text-align:center;}
 header h1{font-size:2.5rem;font-weight:bold;font-family:"origram";color:green;}
 /*header h1:first-letter{text-transform:uppercase}*/
 header h3{font-size:1.2rem;}
